@@ -1,5 +1,5 @@
 def add(a,b:int):
-	return a+b
+	return int(a)+int(b)
 
 if __name__=='__main__':
 	a,b=input('Enter first integer:'),input('Enter second integer:')
